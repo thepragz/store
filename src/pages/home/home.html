@@ -3,15 +3,36 @@
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
+  
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="card-background-page">
+
+<div (click)="getCategory()">
+        <ion-card class="cardsize" style="col">
+         <img src="http://www.lexcenter.com.br/site/wp-content/themes/dt-nimble/images/backgrounds/header/art-header-main/full/r_atr-header-main.jpg">
+        	
+        	<div class="card-title">STORE A</div>
+        
+        </ion-card>
+
+
+
+        <ion-card style="col">
+         <img src="http://wallpaper.pickywallpapers.com/1920x1080/blue-motion-stripes.jpg">
+          <div class="card-title">STORE B</div>
+         
+        </ion-card>
+
+
+
+
+        <ion-card style="col">
+          <img src="http://www.freeliquidtemplates.com/free-headers-for-websites/header11.jpg">
+          <div class="card-title">STORE C</div>
+          
+        </ion-card>
+
+
+</div>
+
 </ion-content>
